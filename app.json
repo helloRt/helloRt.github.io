@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/mine/mine",
+    "pages/addlist/addlist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FA9D79",
+    "navigationBarTitleText": "火箭TODO",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[
+      {"pagePath":"pages/index/index",
+        "text":"",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath":"assets/icons/home.png"},
+      {"pagePath":"pages/list/list",
+       "text":"",
+       "iconPath":"assets/icons/calender.png",
+       "selectedIconPath":"assets/icons/calender.png"
+       },
+      {"pagePath":"pages/mine/mine",
+       "text":"",
+       "iconPath":"assets/icons/mine.png",
+       "selectedIconPath":"assets/icons/mine.png"}
+    ],
+    "color":"#FF7F00",
+    "selectedColor":"#fff",
+    "backgroundColor":"#FA9D79"
+  },
+  "sitemapLocation": "sitemap.json"
+}
